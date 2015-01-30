@@ -16,3 +16,9 @@ The Sun Devil Igniter Challenge is open to all ASU students who see the reward i
 The Igniter Challenge features two highly competitive phases. In Phase One, up to five finalists are selected from entries across ASU and given $5,000 to enhance and improve their idea. In Phase Two, the finalists present their finished concept, with one winner awarded $50,000 to transform their idea into reality.
 
 The Igniter Challenge Board of Directors — a highly-sought after, prestigious, experienced group of serial entrepreneurs and active investors — will be involved every step of the way. An unprecedented advisory experience, the Board will not only judge the competition, but also act as a “Board of Directors” for the winning entrepreneurial team in the first year following the competition — the “Igniter Year”.
+
+<h2>Project Members<h2>
+	Dejan Zelic
+	Tyler Anderson
+	Corry Burkeen
+	Lance Locke
