@@ -19,9 +19,6 @@ The Igniter Challenge Board of Directors — a highly-sought after, prestigious,
 
 <h2>Project Members</h2>
 Dejan Zelic
-
 Tyler Anderson
-
 Corry Burkeen
-
 Lance Locke
