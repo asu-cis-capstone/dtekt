@@ -13,7 +13,7 @@
 </ol>
 
 <h1>SSHing into AWS</h1>
-<h2>Run:</h2>
+    <h3>Run:</h3>
 
     chmod 400 [name of .pem file]
     ssh -i [name of .pem file] ubuntu@[name of AWS instance]
@@ -29,14 +29,14 @@
     npm install
     npm start
     
-<h2>Edit index.js to use port 8080 instead of 5000</h2>
+<h3>Edit index.js to use port 8080 instead of 5000</h3>
     
     vim index.js
     
-<h3>change:</h3>
+        <h4>change:</h4>
 
     app.set('port', (process.env.PORT || 5000))
-<h3>to:</h3>
+        <h4>to:</h4>
 
     app.set('port', (process.env.PORT || 8080))
 
@@ -50,7 +50,7 @@
     sudo iptables -A OUTPUT -p tcp -m tcp --dport 80 -j ACCEPT
     npm start
     
-<h2>In AWS:</h2>
+    <h3>In AWS:</h3>
 <ol type="1">
     <li value="8">Click on the security group you created that is listed in the instance</li>
     <li>Click on the "inbound" tab</li>
