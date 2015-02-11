@@ -50,7 +50,7 @@
     sudo iptables -A OUTPUT -p tcp -m tcp --dport 80 -j ACCEPT
     npm start
     
-    <h3>In AWS:</h3>
+<h3>In AWS:</h3>
 <ol type="1">
     <li value="1">Click on the security group you created that is listed in the instance</li>
     <li>Click on the "inbound" tab</li>
