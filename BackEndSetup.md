@@ -13,7 +13,7 @@
 </ol>
 
 <h1>SSHing into AWS</h1>
-    <h3>Run:</h3>
+<h3>Run:</h3>
 
     chmod 400 [name of .pem file]
     ssh -i [name of .pem file] ubuntu@[name of AWS instance]
@@ -33,10 +33,11 @@
     
     vim index.js
     
-        <h4>change:</h4>
+<h4>change:</h4>
 
     app.set('port', (process.env.PORT || 5000))
-        <h4>to:</h4>
+    
+<h4>to:</h4>
 
     app.set('port', (process.env.PORT || 8080))
 
