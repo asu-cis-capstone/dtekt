@@ -13,14 +13,13 @@
 </ol>
 
 <h1>SSHing into AWS</h1>
-<ol type="1">
-    <li value="1">Run "chmod 400 [name of .pem file]"</li>
-    <li>Run "ssh -i [name of .pem file] ubuntu@[name of AWS instance]"</li>
-</ol>
+<h2>Run:</h2>
+
+    chmod 400 [name of .pem file]
+    ssh -i [name of .pem file] ubuntu@[name of AWS instance]
 
 <h1>Installing Node and testing</h1>
-<ol type="1">
-    ```shell
+
     sudo apt-get install git
     git clone https://github.com/heroku/node-js-sample.git
     cd node-js-sample/
@@ -29,20 +28,28 @@
     sudo apt-get install nodejs
     npm install
     npm start
-    ```
-    <li>Edit index.js to use port 8080 instead of 5000</li>
-</ol>
+    
+<h2>Edit index.js to use port 8080 instead of 5000</h2>
+    
+    vim index.js
+    
+<h3>change:</h3>
+
+    app.set('port', (process.env.PORT || 5000))
+<h3>to:</h3>
+
+    app.set('port', (process.env.PORT || 8080))
 
 <h1>Configure network</h1>
-<ol type="1">
-    <li value="1">"sudo vim /etc/sysctl.conf" and uncomment "net.ipv4.ip_forward"</li>
-    <li>sudo sysctl -p /etc/sysctl.conf</li>
-    <li>cat /proc/sys/net/ipv4/ip_forward</li>
-    <li>sudo iptables -A PREROUTING -t nat -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 8080</li>
-    <li>sudo iptables -A INPUT -p tcp -m tcp --sport 80 -j ACCEPT</li>
-    <li>sudo iptables -A OUTPUT -p tcp -m tcp --dport 80 -j ACCEPT</li>
-    <li>npm start</li>
-</ol>
+
+    sudo vim /etc/sysctl.conf" and uncomment "net.ipv4.ip_forward
+    sudo sysctl -p /etc/sysctl.conf
+    cat /proc/sys/net/ipv4/ip_forward
+    sudo iptables -A PREROUTING -t nat -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 8080
+    sudo iptables -A INPUT -p tcp -m tcp --sport 80 -j ACCEPT
+    sudo iptables -A OUTPUT -p tcp -m tcp --dport 80 -j ACCEPT
+    npm start
+    
 <h2>In AWS:</h2>
 <ol type="1">
     <li value="8">Click on the security group you created that is listed in the instance</li>
