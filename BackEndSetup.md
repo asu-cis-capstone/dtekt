@@ -52,7 +52,7 @@
     
     <h3>In AWS:</h3>
 <ol type="1">
-    <li value="8">Click on the security group you created that is listed in the instance</li>
+    <li value="1">Click on the security group you created that is listed in the instance</li>
     <li>Click on the "inbound" tab</li>
     <li>Click "edit"</li>
     <li>Click "Add Rule"</li>
