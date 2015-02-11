@@ -20,14 +20,16 @@
 
 <h1>Installing Node and testing</h1>
 <ol type="1">
-    <li value="1">sudo apt-get install git</li>
-    <li>git clone <a href="https://github.com/heroku/node-js-sample.git">https://github.com/heroku/node-js-sample.git</a></li>
-    <li>cd node-js-sample/</li>
-    <li>sudo add-apt-repository ppa:chris-lea/node.js</li>
-    <li>sudo apt-get update</li>
-    <li>sudo apt-get install nodejs</li>
-    <li>npm install</li>
-    <li>npm start</li>
+    '''bash
+    sudo apt-get install git
+    git clone https://github.com/heroku/node-js-sample.git
+    cd node-js-sample/
+    sudo add-apt-repository ppa:chris-lea/node.js
+    sudo apt-get update
+    sudo apt-get install nodejs
+    npm install
+    npm start
+    '''
     <li>Edit index.js to use port 8080 instead of 5000</li>
 </ol>
 
