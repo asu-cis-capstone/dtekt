@@ -20,7 +20,7 @@
 
 <h1>Installing Node and testing</h1>
 <ol type="1">
-    '''bash
+    ```shell
     sudo apt-get install git
     git clone https://github.com/heroku/node-js-sample.git
     cd node-js-sample/
@@ -29,7 +29,7 @@
     sudo apt-get install nodejs
     npm install
     npm start
-    '''
+    ```
     <li>Edit index.js to use port 8080 instead of 5000</li>
 </ol>
 
