@@ -71,4 +71,4 @@
 
 <h2>Linking Xamarin and Visual Studio</h2>
     refer to documentation at the following URL:
-    http://developer.xamarin.com/guides/cross-platform/getting_started/visual_studio_with_xamarin/cross_platform_visual_studi     o_project_setup_walkthrough/
+    http://developer.xamarin.com/guides/cross-platform/getting_started/visual_studio_with_xamarin/cross_platform_visual_studio_project_setup_walkthrough/
