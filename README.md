@@ -1,6 +1,9 @@
 # DTEKT
 [![Stories in Ready](https://badge.waffle.io/asu-cis-capstone/dtekt.png?label=ready&title=Ready)](https://waffle.io/asu-cis-capstone/dtekt)
 
+RELEASE 0.4:
+https://www.youtube.com/embed/_N9qZHjsBW0
+
 Client Introduction
 DTEKT, LLC
 
