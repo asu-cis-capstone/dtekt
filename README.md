@@ -1,7 +1,10 @@
 # DTEKT
 [![Stories in Ready](https://badge.waffle.io/asu-cis-capstone/dtekt.png?label=ready&title=Ready)](https://waffle.io/asu-cis-capstone/dtekt)
+<h2>RELEASE 0.6:</h2>
+Automated tests located at:
+https://github.com/asu-cis-capstone/dtekt-backend
 
-RELEASE 0.4:
+<h2>RELEASE 0.4:</h2>
 https://www.youtube.com/embed/_N9qZHjsBW0
 
 Client Introduction
